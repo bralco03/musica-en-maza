@@ -1,0 +1,14 @@
+.welcome{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/welcome2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.welcome-text{
+   padding-left: 10vh;
+}
+.welcome-text p {
+    font-style: italic;
+}

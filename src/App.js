@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import HomeExtra from './components/HomeExtra';
 import Welcome from './components/Welcome';
 import Extrainfo from './components/Extrainfo';
+import Artistas from './components/Artistas';
 import './app.css';
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Welcome />
       <Extrainfo />
       <HomeExtra />
+      <Artistas />
     </div>
   );
 }

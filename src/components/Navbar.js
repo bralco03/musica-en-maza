@@ -2,7 +2,7 @@ import React from 'react';
 const Navbar = () => {
     return(
         <div className="header">
-            <nav className="nav-wrapper blue">
+            <nav className="nav-wrapper teal darken-1">
                 <div className="container">
                     <a href="#" className="brand-logo">Musica en Maza</a>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">

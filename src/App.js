@@ -4,6 +4,7 @@ import HomeExtra from './components/HomeExtra';
 import Welcome from './components/Welcome';
 import Extrainfo from './components/Extrainfo';
 import Artistas from './components/Artistas';
+import Footer from './components/Footer';
 import './app.css';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Extrainfo />
       <HomeExtra />
       <Artistas />
+      <Footer />
     </div>
   );
 }

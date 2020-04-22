@@ -1,0 +1,11 @@
+footer{
+    margin: 0;
+    padding: 0;
+}
+.footerContent{
+    margin: 0;
+
+}
+.footerContent li {
+    padding: .5vh;
+}

@@ -34,8 +34,8 @@ const Artistas = () => {
                 <div className="article center">
                     <img src={Cryps} alt="los cryps" className="circle responsive-img image"/>
                     <h3>Los Cryps</h3>
-                    <p className="artistText">Malavista es un grupo de musica tradicional mexicana, excelente para turistas
-                            y para gente del puerto.
+                    <p className="artistText">Los Cryps son un grupo que te haran mover el eskeleto
+                      con su rock n roll sesentero y setentero.
                     </p>
                 </div>
                     

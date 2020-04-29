@@ -3,7 +3,7 @@ import './extrainfo.css';
 
 const Extrainfo = () => {
     return(
-        <div className="row center extrainfo valign-wrapper grey lighten-3">
+        <div className="row center extrainfo valign-wrapper grey lighten-3" id="extrainfo">
             <div className="col s4">
                 <i className="large material-icons blue-text">headset</i>
                 <h1>Escucha</h1>

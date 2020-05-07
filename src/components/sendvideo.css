@@ -1,0 +1,28 @@
+.bg-div{
+    height: 100vh;
+    width: 100vh;
+    /* background-image: url('../images/musicians.jpg'); */
+    z-index: 1;
+    
+}
+.bg-div img {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.div-form{
+    width: 85vh;
+    height: 40vh;
+    position: absolute;
+    background-color: rgba(0, 122, 126, 0.7);
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.div-form input{
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}

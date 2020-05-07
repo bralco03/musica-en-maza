@@ -8,8 +8,8 @@ const Navbar = () => {
                     <Link to="/" className="brand-logo">Musica en Maza</Link>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li><Link to="/videos">Videos</Link></li>
-                        <li><Link to="/galeria">Galeria</Link></li>
-                        <li><a>¿Eres musico?</a></li>
+                        <li><Link to="/musicos">¿Eres musico?</Link></li>
+                        <li><Link to="/galeria">Contactanos</Link></li>
                     </ul>
                 </div>
             </nav>

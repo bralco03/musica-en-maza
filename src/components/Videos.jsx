@@ -12,7 +12,7 @@ const Videos = () => {
     let videos2 = videos;
 
     const videosDom = videos2.map(video => 
-        <div className="container" key={video.id}>
+        <div className="container videos" key={video.id}>
             <h3>{video.artist}</h3>
             <div className="video">
               <ReactPlayer url={video.url} controls={true} className="videoPlayer"/>

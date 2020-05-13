@@ -3,7 +3,6 @@
     width: 100vh;
     /* background-image: url('../images/musicians.jpg'); */
     z-index: 1;
-    
 }
 .bg-div img {
    position: absolute;
@@ -11,12 +10,19 @@
    width: 100%;
    object-fit: cover;
 }
+.bg-div h1, p{
+    color: white;
+}
+.bg-div p {
+    font-size: 16px;
+}
 
 .div-form{
-    width: 85vh;
-    height: 40vh;
+    width: 85%;
+    height: 70vh;
     position: absolute;
-    background-color: rgba(0, 122, 126, 0.7);
+    border-radius: 25px;
+    background-color: rgba(0, 122, 126, 0.8);
     z-index: 5;
     top: 50%;
     left: 50%;
@@ -25,4 +31,28 @@
 .div-form input{
     margin: 10px 10px 10px 10px;
     padding: 10px;
+    text-indent: 8px;
+}
+button {
+    background-color: rgb(61, 61, 61);
+    border-style: none;
+    width: 100px;
+    height: 60px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    background-color: rgb(36, 31, 31);
+}
+.archivo{
+   display:none;
+}
+.archivoCSS{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
 }

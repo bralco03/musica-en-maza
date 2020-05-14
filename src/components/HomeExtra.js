@@ -18,7 +18,7 @@ const HomeExtra = () => {
                     </div>
                 </div>
                 <h2 className="center">El Proyecto</h2>
-                    <p className="flow-text center">Musica en Maza es un proyecto pensado por musicos para musicos, donde la idea es 
+                    <p className="flow-text center proyectoTexto">Musica en Maza es un proyecto pensado por musicos para musicos, donde la idea es 
                        que la musica de la ciudad se conecte a traves de la musica. En esta pagina podran
                        consultar con sus grupos favoritos del puerto, ver noticias y videos recientes de ellos,
                        y si quieren donar a su causa, poder hacerlo.
